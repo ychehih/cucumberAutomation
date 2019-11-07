@@ -24,7 +24,7 @@ import cucumber.api.java.en.When;
 				System.out.println("in setup");
 //				System.setProperty("webdriver.gecko.driver", "D:\\Training\\TrainingContent\\SeleniumJars_Software\\geckodriver_64\\geckodriver.exe");
 //				driver = new FirefoxDriver();
-				System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\32489\\Documents\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
 				driver = new ChromeDriver();
 				System.out.println("opned browser");
 				Thread.sleep(5000);

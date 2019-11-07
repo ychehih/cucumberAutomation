@@ -17,7 +17,7 @@ public class SharedClass {
 	public WebDriver launchBrowser() throws InterruptedException {
 		System.out.println("in setup");
 		if(driver ==null){
-			System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\32489\\Documents\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		System.out.println("opened browser");
@@ -38,7 +38,7 @@ public class SharedClass {
 	
 //	public static WebDriver getDriver() {  
 //		if(driver==null){
-//			System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver","C:\\Users\\32489\\Documents\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
 //			driver = new ChromeDriver();
 //		}
 //		

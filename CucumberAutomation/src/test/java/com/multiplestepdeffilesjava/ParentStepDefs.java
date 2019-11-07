@@ -18,7 +18,7 @@ public class ParentStepDefs {
 		System.out.println("in setup");
 //		System.setProperty("webdriver.gecko.driver", "D:\\Training\\TrainingContent\\SeleniumJars_Software\\geckodriver_64\\geckodriver.exe");
 //		WebDriver driver = new FirefoxDriver();
-		System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\32489\\Documents\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		System.out.println("opned browser");
 		Thread.sleep(5000);

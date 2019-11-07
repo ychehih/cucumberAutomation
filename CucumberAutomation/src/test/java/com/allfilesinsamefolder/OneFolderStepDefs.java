@@ -23,7 +23,7 @@ import cucumber.api.java.en.When;
 			@Before
 			public void setUp() throws InterruptedException {
 				System.out.println("in setup");
-				System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",".\\resources\\webdriver\\chromedriver.exe");
 				driver = new ChromeDriver();
 //				System.setProperty("webdriver.gecko.driver", "D:\\Training\\TrainingContent\\SeleniumJars_Software\\geckodriver_64\\geckodriver.exe");
 //				driver = new FirefoxDriver();
